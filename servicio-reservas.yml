@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/agencia_viajes
+    url: jdbc:mysql://172.20.2.68:3306/agencia_viajes
     username: root
     password: bravo 
     
@@ -18,7 +18,7 @@ eureka:
   client:
 #    registerWithEureka: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://172.20.2.68:8761/eureka
 #  instance:
 #    prefer-ip-address: true
       
